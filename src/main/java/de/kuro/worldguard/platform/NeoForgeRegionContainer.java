@@ -18,7 +18,6 @@ import java.lang.reflect.Field;
 import java.util.Timer;
 import java.util.logging.Level;
 
-/** Uses Core's RegionContainerImpl, keyed by Minecraft dimension identity. */
 final class NeoForgeRegionContainer extends RegionContainer {
     private final CurrentRegionQueryCache currentCache = new CurrentRegionQueryCache();
 

@@ -38,7 +38,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-/** Per-server state behind WorldGuard Core's singleton platform contract. */
 public final class NeoForgeWorldGuardPlatform implements WorldGuardPlatform {
     private MinecraftServer server;
     private Path configDir;

@@ -19,7 +19,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/** Feeds meaningful movement into Core's Session and its registered handlers. */
 public final class SessionMovement {
     private static SessionMovement installed;
     private final NeoForgeWorldGuardPlatform platform;

@@ -17,7 +17,6 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.concurrent.TimeUnit;
 
-/** Core's session engine with NeoForge player lifecycle cleanup. */
 final class NeoForgeSessionManager extends AbstractSessionManager {
     private final NeoForgeWorldGuardPlatform platform;
     private final Cache<BypassKey, Boolean> bypass = CacheBuilder.newBuilder()

@@ -19,7 +19,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/** Shared Core query, bypass, override, and feedback path for block and entity events. */
 public final class ProtectionDecisionService {
     private static final long MESSAGE_INTERVAL_NANOS = 500_000_000L;
     private final NeoForgeWorldGuardPlatform platform;

@@ -7,7 +7,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Stops vanilla activity exhaustion before it is stored in FoodData. */
 @Mixin(Player.class)
 public abstract class PlayerExhaustionMixin {
     @Inject(method = "causeFoodExhaustion", at = @At("HEAD"), cancellable = true)

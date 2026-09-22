@@ -5,7 +5,6 @@ import com.sk89q.worldedit.extension.platform.Actor;
 import com.sk89q.worldguard.LocalPlayer;
 import com.sk89q.worldguard.internal.platform.DebugHandler;
 
-/** Bukkit-style synthetic debug event simulation is not available on NeoForge. */
 enum NeoForgeDebugHandler implements DebugHandler {
     INSTANCE;
 

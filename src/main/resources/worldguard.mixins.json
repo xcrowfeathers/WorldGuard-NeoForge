@@ -1,16 +1,7 @@
 {
   "required": true,
-  "minVersion": "0.8",
   "package": "de.kuro.worldguard.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-  ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
-  }
+  "mixins": ["FlowingFluidMixin", "FireBlockMixin", "NaturalFadeMixin", "FrostedIceMixin", "CoralFadeMixin", "FarmDryMixin", "FarmMoistureMixin", "NaturalSpreadMixin", "MushroomVineMixin", "PrecipitationMixin", "EndermanTakeMixin", "EndermanLeaveMixin", "SnowGolemMixin", "RavagerMixin", "EnchantmentReplaceBlockMixin", "SculkBlockMixin", "SculkVeinMixin", "DripstoneGrowthMixin", "BigDripleafUseMixin", "TurtleEggTrampleMixin", "PhysicalBlockUseMixin", "TreeGrowerMixin", "HugeMushroomMixin", "HugeFungusMixin", "DispenserBlacklistMixin", "ThrownPotionSplashMixin", "PlayerPacketMovementMixin", "PlayerDimensionMovementMixin", "PlayerDirectTeleportMixin", "PlayerChatDeliveryMixin", "PlayerFoodRulesMixin", "PlayerExhaustionMixin", "PlayerDeathMessageMixin"],
+  "injectors": {"defaultRequire": 1}
 }

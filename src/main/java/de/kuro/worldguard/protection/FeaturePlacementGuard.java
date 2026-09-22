@@ -15,7 +15,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/** Event-scoped transaction for a growing tree, huge mushroom, or huge fungus. */
 public final class FeaturePlacementGuard {
     private FeaturePlacementGuard() {}
 

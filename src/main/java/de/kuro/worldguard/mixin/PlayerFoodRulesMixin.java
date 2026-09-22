@@ -11,7 +11,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** FoodData.tick is the vanilla source of natural healing and hunger depletion. */
 @Mixin(FoodData.class)
 public abstract class PlayerFoodRulesMixin {
     @Shadow private int foodLevel;

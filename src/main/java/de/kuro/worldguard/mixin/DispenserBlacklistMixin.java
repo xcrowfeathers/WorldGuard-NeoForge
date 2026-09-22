@@ -13,7 +13,6 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-/** Prevents a dispenser behavior from starting when Core denies on-dispense. */
 @Mixin(DispenserBlock.class)
 public abstract class DispenserBlacklistMixin {
     @Shadow

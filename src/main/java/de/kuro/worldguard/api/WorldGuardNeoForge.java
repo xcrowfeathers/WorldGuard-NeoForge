@@ -7,7 +7,7 @@ import de.kuro.worldguard.platform.NeoForgeWorldGuardPlatform;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 
-/** Public server-thread adapter boundary. Core region state remains owned by WorldGuard. */
+/** Public server-thread adapter boundary */
 public final class WorldGuardNeoForge {
     private WorldGuardNeoForge() {}
     public static boolean isReady() {

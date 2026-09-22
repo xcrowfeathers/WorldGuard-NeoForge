@@ -20,7 +20,6 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Predicate;
 
-/** Minecraft's known player names first; Core's HTTP resolver handles misses asynchronously. */
 final class KnownProfileService implements ProfileService {
     private final ProfileService fallback;
     private final Map<String, Profile> byName = new ConcurrentHashMap<>();

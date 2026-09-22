@@ -17,7 +17,6 @@ import net.neoforged.neoforge.event.entity.player.AttackEntityEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
-/** Optional upstream worldguard.build.* node checks around normal player actions. */
 public final class BuildPermissionListener {
     private final NeoForgeWorldGuardPlatform platform;
     private final EntityInteractionPair entityInteractions = new EntityInteractionPair();

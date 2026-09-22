@@ -8,7 +8,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Covers command, WorldEdit, and mod teleports using ServerPlayer.teleportTo. */
 @Mixin(ServerPlayer.class)
 public abstract class PlayerDirectTeleportMixin {
     @Inject(method = "teleportTo(Lnet/minecraft/server/level/ServerLevel;DDDFF)V",

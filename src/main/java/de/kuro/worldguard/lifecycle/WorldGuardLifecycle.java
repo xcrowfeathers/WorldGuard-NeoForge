@@ -41,7 +41,6 @@ import java.util.logging.Level;
 import java.lang.reflect.Field;
 import java.util.Timer;
 
-/** Starts Core only after WorldEdit declares its NeoForge platform ready. */
 public final class WorldGuardLifecycle {
     private final NeoForgeWorldGuardPlatform platform = new NeoForgeWorldGuardPlatform();
     private final RegionCommandBridge regionCommands = new RegionCommandBridge(platform);

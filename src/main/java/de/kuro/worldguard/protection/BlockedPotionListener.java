@@ -15,7 +15,6 @@ import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
 import java.util.Set;
 
-/** Upstream blocked-potion item rule at the cancellable player use event. */
 public final class BlockedPotionListener {
     private final NeoForgeWorldGuardPlatform platform;
 

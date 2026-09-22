@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Scheduled or random natural fades only; player block changes never enter these methods. */
 @Mixin({LeavesBlock.class, IceBlock.class, SnowLayerBlock.class,
         WeatheringCopperFullBlock.class, WeatheringCopperSlabBlock.class, WeatheringCopperStairBlock.class})
 public abstract class NaturalFadeMixin {

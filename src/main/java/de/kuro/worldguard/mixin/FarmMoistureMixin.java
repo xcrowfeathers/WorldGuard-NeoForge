@@ -10,7 +10,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-/** Only intercepts farmland's moisture property write, leaving dry-to-dirt checks separate. */
 @Mixin(FarmBlock.class)
 public abstract class FarmMoistureMixin {
     @Redirect(method = "randomTick", at = @At(value = "INVOKE",

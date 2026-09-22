@@ -12,7 +12,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-/** Checks the actual destination reached by grass, mycelium, and amethyst growth. */
 @Mixin({SpreadingSnowyDirtBlock.class, BuddingAmethystBlock.class})
 public abstract class NaturalSpreadMixin {
     @Redirect(method = "randomTick", at = @At(value = "INVOKE",

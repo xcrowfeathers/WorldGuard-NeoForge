@@ -14,7 +14,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Checks Core's use-dripleaf flag only when an entity would first tilt the leaf. */
 @Mixin(BigDripleafBlock.class)
 public abstract class BigDripleafUseMixin {
     @Inject(method = "entityInside", at = @At("HEAD"), cancellable = true)

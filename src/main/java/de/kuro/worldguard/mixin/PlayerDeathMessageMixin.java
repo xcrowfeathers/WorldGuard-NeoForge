@@ -9,7 +9,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-/** ServerPlayer has no cancellable death-broadcast event in NeoForge 1.21.1. */
 @Mixin(ServerPlayer.class)
 public abstract class PlayerDeathMessageMixin {
     @Redirect(method = "die", at = @At(value = "INVOKE",

@@ -40,7 +40,6 @@ import net.neoforged.neoforge.event.level.BlockDropsEvent;
 
 import java.util.Set;
 
-/** Player state checks that are not themselves Core movement handlers. */
 public final class SessionPlayerFlagsListener {
     private static final com.sk89q.worldguard.protection.flags.StateFlag[] PICKUP = {Flags.ITEM_PICKUP};
     private static final com.sk89q.worldguard.protection.flags.StateFlag[] DROP = {Flags.ITEM_DROP};

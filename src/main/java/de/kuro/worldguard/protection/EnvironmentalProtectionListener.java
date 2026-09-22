@@ -56,7 +56,6 @@ import net.neoforged.neoforge.event.level.block.CropGrowEvent;
 import java.util.Iterator;
 import java.util.List;
 
-/** Event-backed environmental protection. Hot random-tick paths are handled by narrow block hooks. */
 public final class EnvironmentalProtectionListener {
     private final EnvironmentalProtection protection;
 

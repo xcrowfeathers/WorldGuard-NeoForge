@@ -9,7 +9,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/** Check region exit/entry before a portal or other dimension transition commits. */
 @Mixin(ServerPlayer.class)
 public abstract class PlayerDimensionMovementMixin {
     @Inject(method = "changeDimension", at = @At("HEAD"), cancellable = true)

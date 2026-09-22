@@ -11,7 +11,6 @@ import com.sk89q.worldguard.session.handler.Handler;
 
 import java.util.Set;
 
-/** Keeps timed-handler eligibility in the Core session, alongside its other handlers. */
 public final class TimedSessionActivity extends Handler {
     public static final Factory<TimedSessionActivity> FACTORY = new Factory<>() {
         @Override public TimedSessionActivity create(Session session) { return new TimedSessionActivity(session); }

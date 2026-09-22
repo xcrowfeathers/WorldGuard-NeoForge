@@ -35,7 +35,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
-/** Brigadier front end for WorldGuard 7.0.12's unmodified region commands. */
+/** Brigadier frontend */
 public final class RegionCommandBridge {
     private static final Set<String> REGION_ALIASES = Set.of("region", "regions", "rg");
     private static final Set<String> REGION_ARGUMENTS = Set.of("redefine", "update", "move", "remove", "delete",

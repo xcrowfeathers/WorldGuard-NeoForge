@@ -24,7 +24,6 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.players.UserBanListEntry;
 import net.minecraft.world.level.GameType;
 
-/** WorldGuard's player facet over WorldEdit's official NeoForge actor. */
 public final class NeoForgeLocalPlayer extends NeoForgePlayer implements LocalPlayer {
     private final ServerPlayer player;
     private final NeoForgeWorldGuardPlatform platform;

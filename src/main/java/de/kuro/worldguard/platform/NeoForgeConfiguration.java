@@ -30,7 +30,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
-/** WorldGuard YAML defaults with dimension-specific overrides keyed by stable IDs. */
 final class NeoForgeConfiguration extends ConfigurationManager {
     private final File dataFolder;
     private final Map<String, PortWorldConfiguration> worlds = new ConcurrentHashMap<>();

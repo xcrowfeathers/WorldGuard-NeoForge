@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/** A specific entity click may continue as a general click in the same packet. */
 final class EntityInteractionPair {
     private final Map<UUID, Attempt> specific = new HashMap<>();
 

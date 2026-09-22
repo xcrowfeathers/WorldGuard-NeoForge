@@ -11,7 +11,6 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 import java.util.List;
 
-/** Filters only the splash's affected entities before instant or lasting effects apply. */
 @Mixin(ThrownPotion.class)
 public abstract class ThrownPotionSplashMixin {
     @Redirect(method = "applySplash", at = @At(value = "INVOKE",

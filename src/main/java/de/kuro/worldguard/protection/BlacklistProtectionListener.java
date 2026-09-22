@@ -33,7 +33,6 @@ import net.neoforged.neoforge.event.entity.player.ItemEntityPickupEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
-/** NeoForge event mapping for Core's compiled WorldGuard blacklist rules. */
 public final class BlacklistProtectionListener {
     private static BlacklistProtectionListener installed;
     private final NeoForgeWorldGuardPlatform platform;

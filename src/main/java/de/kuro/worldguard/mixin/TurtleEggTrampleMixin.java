@@ -12,7 +12,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Checks the trample decision before vanilla rolls to crack a turtle egg. */
 @Mixin(TurtleEggBlock.class)
 public abstract class TurtleEggTrampleMixin {
     @Inject(method = "destroyEgg", at = @At("HEAD"), cancellable = true)

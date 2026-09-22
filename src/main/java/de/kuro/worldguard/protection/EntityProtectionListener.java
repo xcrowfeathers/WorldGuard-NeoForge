@@ -43,7 +43,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/** Player-caused entity protection using the same Core decision path as block protection. */
 public final class EntityProtectionListener {
     private static final StateFlag[] INTERACT = {Flags.INTERACT};
     private static final StateFlag[] RIDE = {Flags.RIDE, Flags.INTERACT};

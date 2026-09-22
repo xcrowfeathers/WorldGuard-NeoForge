@@ -13,7 +13,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 
-/** Thin Core bridge for environmental events; no player override event is posted. */
 public final class EnvironmentalProtection {
     private final NeoForgeWorldGuardPlatform platform;
 

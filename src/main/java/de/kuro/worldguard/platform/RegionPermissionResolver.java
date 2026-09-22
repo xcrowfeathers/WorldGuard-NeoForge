@@ -4,7 +4,6 @@ import com.sk89q.worldedit.neoforge.NeoForgePermissionsProvider;
 import com.sk89q.worldedit.neoforge.NeoForgeWorldEdit;
 import net.minecraft.server.level.ServerPlayer;
 
-/** Provider boundary for WorldGuard's exact permission nodes and group checks. */
 public interface RegionPermissionResolver {
     boolean hasPermission(ServerPlayer player, String node);
 

@@ -9,7 +9,6 @@ import net.minecraft.world.entity.item.PrimedTnt;
 import net.minecraft.world.entity.projectile.EvokerFangs;
 import net.minecraft.world.entity.projectile.Projectile;
 
-/** Resolves only cause links supplied by Minecraft or NeoForge; never guesses by proximity. */
 final class EntityCauseResolver {
     private EntityCauseResolver() {}
 

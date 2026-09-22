@@ -43,8 +43,6 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.event.entity.player.UseItemOnBlockEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
-
-/** Player-caused block protection. Core remains the sole flag and association calculator. */
 public final class PlayerProtectionListener {
     private static final StateFlag[] BREAK = {Flags.BLOCK_BREAK};
     private static final StateFlag[] PLACE = {Flags.BLOCK_PLACE};

@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-/** Name matching against live NeoForge dimensions and players. */
 final class NeoForgeStringMatcher implements StringMatcher {
     private final NeoForgeWorldGuardPlatform platform;
 

@@ -11,7 +11,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** The packet path has no cancellable NeoForge player-move event. */
 @Mixin(ServerGamePacketListenerImpl.class)
 public abstract class PlayerPacketMovementMixin {
     @Shadow public ServerPlayer player;

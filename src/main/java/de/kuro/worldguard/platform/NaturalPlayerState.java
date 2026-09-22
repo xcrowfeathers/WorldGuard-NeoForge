@@ -11,7 +11,6 @@ import com.sk89q.worldguard.session.handler.Handler;
 
 import java.util.Set;
 
-/** Effective natural player rules are cached within the Core session. */
 public final class NaturalPlayerState extends Handler {
     public static final Factory<NaturalPlayerState> FACTORY = new Factory<>() {
         @Override public NaturalPlayerState create(Session session) { return new NaturalPlayerState(session); }

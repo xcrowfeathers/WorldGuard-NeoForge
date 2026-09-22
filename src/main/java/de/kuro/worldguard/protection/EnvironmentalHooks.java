@@ -18,7 +18,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FluidState;
 
-/** Called only from narrow Minecraft transition hooks where NeoForge has no cancellable event. */
 public final class EnvironmentalHooks {
     private static EnvironmentalProtection protection;
     private static ProtectionDecisionService decisions;
