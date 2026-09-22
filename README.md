@@ -1,3 +1,4 @@
+![WorldGuard Logo](https://cdn.modrinth.com/data/cached_images/a0ae1044eb63255f85ca419f7be9033e61905570.png)
 # WorldGuard for NeoForge 1.21.1 (Port)
 This is an unofficial port for the Bukkit WorldGuard-plugin. You can read through the sections below and will likely
 find answers to all these question marks above your head.
