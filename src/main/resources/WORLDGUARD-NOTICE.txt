@@ -1,0 +1,14 @@
+This mod packages the official WorldGuard Core 7.0.12 and
+worldguard-libs:core 7.0.12 artifacts from EngineHub.
+
+WorldGuard is copyright sk89q, the WorldGuard team, and contributors.
+The bundled WorldGuard artifacts are licensed under the GNU Lesser General
+Public License, version 3 or later. See LICENSE-worldguard.txt.
+The LGPL v3 references the GNU GPL v3; both license texts are included as
+LICENSE-worldguard.txt and LICENSE-GPL-3.0.txt. Official source artifacts are
+available from https://maven.enginehub.org/repo/ under these coordinates.
+
+The nested Flyway Core 3.0, SnakeYAML 2.0, and SQLite JDBC 3.46.1.3
+libraries are distributed under Apache License 2.0. See
+LICENSE-APACHE-2.0.txt. Their Maven coordinates and exact versions are also
+recorded in META-INF/jarjar/metadata.json.
